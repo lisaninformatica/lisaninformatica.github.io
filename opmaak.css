@@ -35,7 +35,8 @@ body {
 }
 
 a:link, a:visited { 
-  background-color: blanchedalmond;
+  background-color: black;
+  
   color: white;
   padding: 14px 25px;
   text-align: center;
