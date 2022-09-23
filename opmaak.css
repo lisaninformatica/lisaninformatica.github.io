@@ -50,3 +50,7 @@ a:hover, a:active {
 h1 {
   text-decoration: overline;
 }
+
+h4 {
+  text-align: right;
+}
