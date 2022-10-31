@@ -62,3 +62,8 @@ h8 {
   width: 30%;
   height: 100px;
 }
+
+/*background plaatje*/
+#body1 {
+  Background-image: url("informatica\ image.jpeg")
+}
