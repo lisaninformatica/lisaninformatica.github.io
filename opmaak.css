@@ -78,7 +78,7 @@ h10 {
 
 /*transpirant blok*/
 div.transbox {
-  margin: 100px;
+  margin: 200px;
   background-color: hwb(0 39% 60%);
   border: 1px solid black;
   opacity: 0.6;
