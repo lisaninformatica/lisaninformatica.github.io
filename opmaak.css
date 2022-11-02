@@ -59,6 +59,8 @@ p.double {border-style: double;
 width:60%}
 .newspaper {
   column-count: 4;
+  column-gap: 40px;
+  column-rule-style: solid;
 }
 
 h8 {
