@@ -57,6 +57,9 @@ h4 {
 /*border om tekst bij binairstelsel*/
 p.double {border-style: double;
 width:60%}
+.newspaper {
+  column-count: 4;
+}
 
 h8 {
   width: 30%;
