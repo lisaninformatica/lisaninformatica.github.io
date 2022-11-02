@@ -58,7 +58,7 @@ h4 {
 p.double {border-style: double;
 width:60%}
 .newspaper {
-  column-count: 4;
+  column-count: 3;
   column-gap: 40px;
   column-rule-style: solid;
 }
@@ -94,4 +94,22 @@ div.transbox p {
   margin: 40%;
   font-weight: bold;
   color: #000000;
+}
+
+/*side by side afbeeldingen bij kleurmodellen*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
