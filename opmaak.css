@@ -82,13 +82,13 @@ h10 {
 
 /*transpirant blok*/
 div.transbox {
-  margin: 300px;
+  margin: 100px;
   background-color: hwb(0 39% 60%);
   border: 1px solid black;
   opacity: 0.6;
 }
 div.transbox p {
-  margin: 30%;
+  margin: 40%;
   font-weight: bold;
   color: #000000;
 }
