@@ -16,13 +16,13 @@ body {
   }
 
  
-.topnav {
+  .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
 
-.topnav a {
+  .topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -31,12 +31,13 @@ body {
   text-decoration: none;
 }
 
-.topnav a:hover {
+  /*hover*/
+  .topnav a:hover {
   background-color: #ddd;
   color: #333;
 }
 
-a:link, a:visited { 
+  a:link, a:visited { 
   background-color: #333;
   
   color: white;
@@ -46,69 +47,70 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+  a:hover, a:active {
   background-color: black;
 }
 
 
-h4 {
+  h4 {
   text-align: right;
 }
-/*border en streepjes bij tekst*/
-p.double {border-style: double;
-width:60%}
-.newspaper {
+  /*border en streepjes bij tekst*/
+  p.double {border-style: double;
+  width:60%}
+  .newspaper {
   column-count: 3;
   column-gap: 30px;
   column-rule-style: solid;
 }
 
-h8 {
+  h8 {
   width: 30%;
   height: 100px;
   color: white;
 }
 
-/*background plaatje*/
-#body1 {
+  /*background plaatje*/
+  #body1 {
   Background-image: url("informatica.webp")
 }
 
-h2 {
+  h2 {
   color: white;
 }
 
-h10 {
+  h10 {
   color:white;
   
 }
 
-/*transpirant blok*/
-div.transbox {
+  /*transpirant blok*/
+  div.transbox {
   margin: 100px;
   background-color: hwb(0 39% 60%);
   border: 1px solid black;
   opacity: 0.6;
 }
-div.transbox p {
+  div.transbox p {
   margin: 40%;
   font-weight: bold;
   color: #000000;
 }
 
-/*side by side afbeeldingen bij kleurmodellen*/
-* {
+  /*side by side afbeeldingen bij kleurmodellen*/
+  * {
   box-sizing: border-box;
 }
 
-.column {
+  .column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
+  /* Clearfix (clear floats) */
+  .row::after {
+  content: "";
   clear: both;
   display: table;
 }
