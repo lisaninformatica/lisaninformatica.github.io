@@ -54,7 +54,7 @@ a:hover, a:active {
 h4 {
   text-align: right;
 }
-/*border om tekst bij binairstelsel*/
+/*border en streepjes bij tekst*/
 p.double {border-style: double;
 width:60%}
 .newspaper {
@@ -109,7 +109,6 @@ div.transbox p {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: "";
   clear: both;
   display: table;
 }
