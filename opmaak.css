@@ -114,3 +114,12 @@ body {
   clear: both;
   display: table;
 }
+
+/*blok voor de footer*/
+footer {
+    display: block;
+}
+footer {
+  background-color: white;
+  padding: 10px;
+}
