@@ -1,6 +1,7 @@
 
 
-body {
+body 
+#blauwachtigbg{
     background-color: rgb(139, 216, 207);
   }
     h1 {
@@ -51,10 +52,6 @@ body {
   background-color: black;
 }
 
-/*plaatje rechts*/
-  h4 {
-  text-align: right;
-}
   /*border en streepjes bij tekst*/
   p.double {border-style: double;
   width:60%}
@@ -89,7 +86,6 @@ body {
   h2 {
   color: white;
 }
-
 
   /*transpirant blok*/
   div.transbox {
