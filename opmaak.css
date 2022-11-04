@@ -78,6 +78,12 @@ body {
   min-height: 75%;
 }
 
+/*titel hoofdmenu */
+.w3-text-white {
+  color: white;
+  position: center;
+}
+
   h2 {
   color: white;
 }
