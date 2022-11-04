@@ -1,8 +1,7 @@
 
-
-background-color: rgb(139, 216, 207);
-  
-
+body {
+  background-color: rgb(139, 216, 207);
+}
     h1 {
     color: white;
     text-align: center;
