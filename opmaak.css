@@ -120,6 +120,6 @@ footer {
     display: block;
 }
 footer {
-  background-color: hwb(0 39% 60%);
+  background-color: #333;
   padding: 10px;
 }
