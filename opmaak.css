@@ -76,6 +76,7 @@ body {
   background-size: cover;
   background-image: url("informatica.webp");
   min-height: 75%;
+  height: 100%;
 }
 
 /*titel hoofdmenu */
