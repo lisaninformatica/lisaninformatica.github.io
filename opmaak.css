@@ -1,7 +1,7 @@
 
 
-body 
-#blauwachtigbg{
+body
+.background {
     background-color: rgb(139, 216, 207);
   }
     h1 {
