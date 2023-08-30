@@ -126,13 +126,3 @@ footer {
   padding: 10px;
 }
 
-/*proberen met 2 blokken naast elkaar*/
-#container{
-  margin:auto;
-  width:1000px;
-}
-.event {
- text-align:center;
- float:left;
- width: 500px;
-}
