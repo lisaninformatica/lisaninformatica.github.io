@@ -159,28 +159,36 @@ footer {
   display: block;
 }
 
+/*2boxen naast elkaar proberen*/
 
-/* Stijl voor de transparante boxen */
-.transbox {
-  margin: 10px; /* Marge toevoegen voor afstand tussen de boxen */
-  float: left; /* Zorg ervoor dat de boxen naast elkaar worden geplaatst */
-  background-color: rgba(0, 139, 182, 0.6); /* Achtergrondkleur met transparantie */
+/* Stijl voor de linker transparante box */
+.transbox-left {
+  margin: 50px;
+  background-color: hwb(0 39% 60%);
   border: 1px solid black;
-  width: 45%; /* Aanpassen aan de gewenste breedte */
-  padding: 20px; /* Voeg wat ruimte binnenin toe */
-  box-sizing: border-box; /* Zorg ervoor dat padding en randen binnen de breedte worden gehouden */
-  color: white;
+  opacity: 0.6;
+  width: 45%; /* Aangepaste breedte voor de linker box */
+  float: left; /* Zorgt ervoor dat ze naast elkaar staan */
 }
 
-/* Stijl voor de inhoud van de transparante boxen */
-.transbox p {
-  margin: 0; /* Verwijder standaardmarges van alinea's binnen de boxen */
+.transbox-left p {
+  margin: 5%;
   font-weight: bold;
+  color: #000000;
+}
+/* Stijl voor de rechter transparante box */
+.transbox-right {
+  margin: 50px;
+  background-color: hwb(0 39% 60%);
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 45%; /* Aangepaste breedte voor de rechter box */
+  float: left; /* Zorgt ervoor dat ze naast elkaar staan */
 }
 
-/* Wis drijvende elementen na de transparante boxen */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+.transbox-right p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
 }
+
