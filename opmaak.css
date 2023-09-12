@@ -160,3 +160,27 @@ footer {
 }
 
 
+/* Stijl voor de transparante boxen */
+.transbox {
+  margin: 10px; /* Marge toevoegen voor afstand tussen de boxen */
+  float: left; /* Zorg ervoor dat de boxen naast elkaar worden geplaatst */
+  background-color: rgba(0, 139, 182, 0.6); /* Achtergrondkleur met transparantie */
+  border: 1px solid black;
+  width: 45%; /* Aanpassen aan de gewenste breedte */
+  padding: 20px; /* Voeg wat ruimte binnenin toe */
+  box-sizing: border-box; /* Zorg ervoor dat padding en randen binnen de breedte worden gehouden */
+  color: white;
+}
+
+/* Stijl voor de inhoud van de transparante boxen */
+.transbox p {
+  margin: 0; /* Verwijder standaardmarges van alinea's binnen de boxen */
+  font-weight: bold;
+}
+
+/* Wis drijvende elementen na de transparante boxen */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
