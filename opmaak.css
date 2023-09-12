@@ -159,36 +159,5 @@ footer {
   display: block;
 }
 
-/*2boxen naast elkaar proberen*/
 
-/* Stijl voor de linker transparante box */
-.transbox-left {
-  margin: 50px;
-  background-color: hwb(0 39% 60%);
-  border: 1px solid black;
-  opacity: 0.6;
-  width: 30%; /* Aangepaste breedte voor de linker box */
-  float: left; /* Zorgt ervoor dat ze naast elkaar staan */
-}
-
-.transbox-left p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-/* Stijl voor de rechter transparante box */
-.transbox-right {
-  margin: 50px;
-  background-color: hwb(0 39% 60%);
-  border: 1px solid black;
-  opacity: 0.6;
-  width: 30%; /* Aangepaste breedte voor de rechter box */
-  float: right; /* Zorgt ervoor dat ze naast elkaar staan */
-}
-
-.transbox-right p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
 
