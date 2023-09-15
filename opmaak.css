@@ -141,6 +141,7 @@ footer {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  width: 60px;
 }
 
 .dropdown-content {
