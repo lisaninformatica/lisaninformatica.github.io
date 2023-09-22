@@ -144,6 +144,7 @@ footer {
 }
 
 .dropdown-content {
+  float: none;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
